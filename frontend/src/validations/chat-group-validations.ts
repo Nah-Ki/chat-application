@@ -5,5 +5,5 @@ export const createChatSchema = z.object({
   passcode: z.string().min(4, {message: "Chat passcode must be 4 charaters long"}).max(25, {message: "Chat passcode cananot be more than 25 characters"}),
 }).required();
 
-export type createChatSchemaType = z.infer<typeof createChatSchema>
+export type createChatSchemaType = z.infer<typeof createChatSchema>;
 
