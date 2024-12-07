@@ -1,4 +1,4 @@
-import { LOGIN_URL } from "@/lib/api-end-poitns";
+import { LOGIN_URL } from "@/lib/api-end-points";
 import axios from "axios";
 import { Account, AuthOptions, ISODateString } from "next-auth";
 import { JWT } from "next-auth/jwt";
