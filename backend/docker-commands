@@ -1,0 +1,11 @@
+# to list all the topics in the kafka instance 
+docker exec -it <kafka_container_id> kafka-topics --bootstrap-server localhost:9092 --list
+
+
+# to produce and consume messages 
+docker exec -it <kafka_container_id> kafka-console-producer.sh --broker-list localhost:9092 --topic my-topic
+docker exec -it <kafka_container_id> kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic my-topic --from-beginning
+
+# to remove all the topics from the kafka 
+docker exec -it <kafka_container_id> bash -c 'for topic in $(kafka-topics.sh --bootstrap-server localhost:9092 --list); do kafka-topics.sh --bootstrap-server localhost:9092 --topic $topic --delete; done'
+
