@@ -205,3 +205,6 @@ export async function consumeMessages(topic: string) {
 
 Feel free to revisit this document whenever you need to understand or extend your WebSocket setup!
 
+## Some links that you might wanna look into 
+https://socket.io/docs/v4/redis-adapter/
+
