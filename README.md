@@ -240,10 +240,16 @@ Summary
 ### Summary
 By combining Kafka and WebSocket, the system achieves reliable, real-time, and scalable communication. Kafka ensures message durability and processing, while WebSocket manages live interactions. This integration is ideal for chat applications requiring high availability and responsiveness.
 
-#   c h a t - a p p l i c a t i o n  
- #   q u i c k - c h a t  
- #   q u i c k - c h a t  
- #   q u i c k - c h a t  
- #   q u i c k - c h a t  
- #   c h a t - a p p l i c a t i o n  
+#   c h a t - a p p l i c a t i o n 
+ 
+ #   q u i c k - c h a t 
+ 
+ #   q u i c k - c h a t 
+ 
+ #   q u i c k - c h a t 
+ 
+ #   q u i c k - c h a t 
+ 
+ #   c h a t - a p p l i c a t i o n 
+ 
  
